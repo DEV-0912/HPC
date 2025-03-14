@@ -3,3 +3,4 @@
 
 # Ignore all executable files
 *.exe
+*.class
