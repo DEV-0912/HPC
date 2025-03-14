@@ -63,7 +63,7 @@ public class MatrixSquare {
 
     public static void main(String[] args) {
         int[] sizes = {256, 512, 1024, 2048, 4096};
-        int[] threads = {2, 4, 6, 8, 10, 12, 14, 16};
+        int[] threads = {2};
 
         System.out.println("Matrix Size, Threads, Average Runtime (s)");
         for (int size : sizes) {
